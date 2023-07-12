@@ -1,4 +1,4 @@
-// Links to license badge images
+// Links to license badge images nad URL
 const licenseBadgeLinks = {
   MIT: "[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://tlo.mit.edu/learn-about-intellectual-property/software-and-open-source-licensing/open-source-licensing)",
 

@@ -1,4 +1,4 @@
-# dag
+# Readme Generator by csetiawan88
 
   [![License: USYD](https://img.shields.io/badge/license-USYD-green)](https://www.sydney.edu.au/engage/industry-business-partnerships/license-our-intellectual-property.html)
   
@@ -12,23 +12,23 @@
   * [Questions](#Questions)
 
   ## Description 
-  gfsdgfsd
+  Creating Profesional Readme with Node.js
 
   ## Installation 
-  sdfs
+  Install Node.js and inquirer
 
   ## Usage 
-  sadfs
+  Automatically create Readme
 
   ## Contributing
-  dfs
+  Contributor by csetiawan88
 
   ## Tests
-  dsfa
+  Run node index.js in terminal
 
   ## License 
   USYD
 
   ## Questions (How to reach me with additional questions)
-  GitHub: https://github.com/fda.
-  Email: fda. 
+  GitHub: https://github.com/csetiawan88.
+  Email: csetiawan@yahoo.com. 

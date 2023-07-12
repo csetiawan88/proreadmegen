@@ -1,3 +1,5 @@
+// Generate Markdown for README
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
@@ -14,6 +16,36 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Table of Contents
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage Instructions](#Usage)
+  * [Contribution](#Contribution)
+  * [Testing](#Tests)
+  * [License](#License)
+  * [Questions](#Questions)
+
+  ## Description 
+  ${data.description}
+
+  ## Installation 
+  ${data.installation}
+
+  ## Usage 
+  ${data.usage}
+
+  ## Contribution
+  ${data.contribution}
+
+  ## Tests
+  ${data.test}
+
+  ## License 
+  ${data.licensing}
+
+  ## Questions
+  GitHub: https://github.com/${data.github}.
+  Email: ${data.email}. 
 `;
 }
 

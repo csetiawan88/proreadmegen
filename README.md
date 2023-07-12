@@ -42,7 +42,9 @@ SO THAT I can quickly create a professional README for a new project
 
 Video created with Screencastify.
 
-Video Link: https://drive.google.com/file/d/1WSxXLXnMa78q-QFI5B9GEgUHjIuXRTFR/view
+Video Link demonstration: https://drive.google.com/file/d/1WSxXLXnMa78q-QFI5B9GEgUHjIuXRTFR/view
+
+Video link to show the functioning Table of Contents: https://drive.google.com/file/d/1wvWMHzt1jwm1Y70pZLzvcK_paMF1vmgg/view
 
 ## Screenshot
 

@@ -41,7 +41,7 @@ const questions = [
   },
   {
     type: "rawlist",
-    message: "Choose a license for your project",
+    message: "Choose a license for your project (Enter 1 - 4)",
     choices: ["USYD", "UNSW", "MIT", "GNU"],
     name: "licensing",
   },

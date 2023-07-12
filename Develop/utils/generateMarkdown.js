@@ -12,16 +12,42 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+//"USYD", "UNSW", "MIT", "GNU"
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  //license Badge
+  let licenseOption = `${data.licensing}`;
+  let licenseLink = "";
+  //if conditional to give the license the correct link
+  if (licenseOption === "UNSW") {
+    licenseOption = "UNSW";
+    licenseLink = "https://www.myit.unsw.edu.au/services/students";
+  }
+  if (licenseOption === "USYD") {
+    licenseOption = "USYD";
+    licenseLink =
+      "https://www.sydney.edu.au/engage/industry-business-partnerships/license-our-intellectual-property.html";
+  }
+  if (licenseOption === "MIT") {
+    licenseOption = "MIT";
+    licenseLink =
+      "https://tlo.mit.edu/learn-about-intellectual-property/software-and-open-source-licensing/open-source-licensing";
+  }
 
+  if (licenseOption === "GNU") {
+    licenseOption = "GNU";
+    licenseLink = "https://www.gnu.org/licenses/gpl-3.0.en.html";
+  }
+
+  //Generate Readme from user input
+  return `# ${data.title}
+  
   ## Table of Contents
   * [Description](#Description)
   * [Installation](#Installation)
   * [Usage Instructions](#Usage)
-  * [Contribution](#Contribution)
-  * [Testing](#Tests)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
   * [License](#License)
   * [Questions](#Questions)
 
@@ -34,7 +60,7 @@ function generateMarkdown(data) {
   ## Usage 
   ${data.usage}
 
-  ## Contribution
+  ## Contributing
   ${data.contribution}
 
   ## Tests
@@ -43,7 +69,7 @@ function generateMarkdown(data) {
   ## License 
   ${data.licensing}
 
-  ## Questions
+  ## Questions (How to reach me with additional questions)
   GitHub: https://github.com/${data.github}.
   Email: ${data.email}. 
 `;

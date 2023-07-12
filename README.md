@@ -56,6 +56,11 @@ Video link to show the functioning Table of Contents: https://drive.google.com/f
 
 GITHUB: https://github.com/csetiawan88/proreadmegen
 
+## Technologies
+
+- [Node.js](https://nodejs.org/)
+- [Inquirer.js](https://www.npmjs.com/package/inquirer)
+
 ## Professional README Generator Starter Code
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)

@@ -1,4 +1,6 @@
-# Readme Generator
+# dag
+
+  [![License: USYD](https://img.shields.io/badge/license-USYD-green)](https://www.sydney.edu.au/engage/industry-business-partnerships/license-our-intellectual-property.html)
   
   ## Table of Contents
   * [Description](#Description)
@@ -10,23 +12,23 @@
   * [Questions](#Questions)
 
   ## Description 
-  Create readme 
+  gfsdgfsd
 
   ## Installation 
-  Install Node
+  sdfs
 
   ## Usage 
-  To create Readme automatically
+  sadfs
 
   ## Contributing
-  Contributor by csetiawan88
+  dfs
 
   ## Tests
-  Run node index.js in terminal
+  dsfa
 
   ## License 
-  UNSW
+  USYD
 
   ## Questions (How to reach me with additional questions)
-  GitHub: https://github.com/csetiawan88.
-  Email: csetiawan@yahoo.com. 
+  GitHub: https://github.com/fda.
+  Email: fda. 

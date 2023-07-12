@@ -1,46 +1,15 @@
 // Generate Markdown for README
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// Licence Badge
+const licenseBadgeLinks = require("./licenseBadges.js");
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-//"USYD", "UNSW", "MIT", "GNU"
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  //license Badge
-  let licenseOption = `${data.licensing}`;
-  let licenseLink = "";
-  //if conditional to give the license the correct link
-  if (licenseOption === "UNSW") {
-    licenseOption = "UNSW";
-    licenseLink = "https://www.myit.unsw.edu.au/services/students";
-  }
-  if (licenseOption === "USYD") {
-    licenseOption = "USYD";
-    licenseLink =
-      "https://www.sydney.edu.au/engage/industry-business-partnerships/license-our-intellectual-property.html";
-  }
-  if (licenseOption === "MIT") {
-    licenseOption = "MIT";
-    licenseLink =
-      "https://tlo.mit.edu/learn-about-intellectual-property/software-and-open-source-licensing/open-source-licensing";
-  }
-
-  if (licenseOption === "GNU") {
-    licenseOption = "GNU";
-    licenseLink = "https://www.gnu.org/licenses/gpl-3.0.en.html";
-  }
+  data.licenseBadge = licenseBadgeLinks[data.licensing];
 
   //Generate Readme from user input
   return `# ${data.title}
+
+  ${data.licenseBadge}
   
   ## Table of Contents
   * [Description](#Description)
@@ -74,5 +43,4 @@ function generateMarkdown(data) {
   Email: ${data.email}. 
 `;
 }
-
 module.exports = generateMarkdown;

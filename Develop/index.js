@@ -40,7 +40,7 @@ const questions = [
     name: "test",
   },
   {
-    type: "checkbox",
+    type: "rawlist",
     message: "Choose a license for your project",
     choices: ["USYD", "UNSW", "MIT", "GNU"],
     name: "licensing",

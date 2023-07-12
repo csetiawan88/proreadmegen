@@ -40,6 +40,10 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Video-Link
 
+Video created with Screencastify.
+
+Video Link: https://drive.google.com/file/d/1WSxXLXnMa78q-QFI5B9GEgUHjIuXRTFR/view
+
 ## Screenshot
 
 ## Repository-Link

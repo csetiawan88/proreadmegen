@@ -1,13 +1,12 @@
-// TODO: Include packages needed for this application
-
-// node modules
+// Include packages needed for this application
+// Install node modules and also need to install inquirer to be able to run the program. Run the command “npm install inquirer”
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// linking page where Readme is developed
+// linking to where Readme generated
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [
   {
     type: "input",
@@ -39,6 +38,7 @@ const questions = [
     message: "What are the test instructions of the project?",
     name: "test",
   },
+  // User need to select licence from list of options
   {
     type: "rawlist",
     message: "Choose a license for your project (Enter 1 - 4)",
@@ -57,7 +57,7 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     if (err) throw err;
@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then(function (userInput) {
     console.log(userInput);

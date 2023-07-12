@@ -44,7 +44,7 @@ Video created with Screencastify.
 
 Video Link demonstration: https://drive.google.com/file/d/1Byh17YQ6pgvpeanMHNKNM1XKXPR42Chy/view
 
-Video link to show the functioning Table of Contents:
+Video link to show the functioning Table of Contents: https://drive.google.com/file/d/1GVRIwB7bkD46OqoelvbQA-3QFyX-xgy4/view
 
 ## Screenshot
 

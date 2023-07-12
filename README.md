@@ -46,10 +46,14 @@ Video Link: https://drive.google.com/file/d/1WSxXLXnMa78q-QFI5B9GEgUHjIuXRTFR/vi
 
 ## Screenshot
 
+![Generating Readme questions](screenshot1.jpg)
+![Readme on Visual Code Editor](screenshot2.jpg)
+![Readme on Github](screenshot3.jpg)
+
 ## Repository-Link
 
 GITHUB: https://github.com/csetiawan88/proreadmegen
 
-# Professional README Generator Starter Code
+## Professional README Generator Starter Code
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)

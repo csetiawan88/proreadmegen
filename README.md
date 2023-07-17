@@ -52,6 +52,10 @@ Video link to show the functioning Table of Contents: https://drive.google.com/f
 ![Readme on Visual Code Editor](screenshot2.jpg)
 ![Readme on Github](screenshot3.jpg)
 
+## Generated README.md
+
+A sample README.md file for a project repository generated using application is located inside "Develop" folder. File name README.md
+
 ## Repository-Link
 
 GITHUB: https://github.com/csetiawan88/proreadmegen
